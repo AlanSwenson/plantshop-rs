@@ -1,0 +1,12 @@
+[programs.localnet]
+plantshop = "8QTpRdAJedrYUxG31T2MATyDWh3G3BMAfG7vBi3ziks4"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/alanswenson/.config/solana/id.json"
+
+[scripts]
+test = "ts-mocha -p ./tsconfig.json -t 1000000 tests/plantshop.ts"
